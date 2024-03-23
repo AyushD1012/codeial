@@ -1,8 +1,19 @@
-<h1>Sign In</h1>
+<link rel="stylesheet" href="/css/signin.css">
 
-<form action="/users/create-session" method="POST">
-    <input type="email" name="email" placeholder="Email ID" required>
-    <input type="password" name="password" placeholder="Password" required>
-    <input type="submit" value="Sign In">
+
+<div id="signin">
+    <h1 class="sign">Sign In</h1>
+    <form action="/users/create-session" method="POST">
+    <input class="signincred" type="email" name="email" placeholder="Email ID" required><br>
+    <input class="signincred" type="password" name="password" placeholder="Password" required><br>
+    <input class="signincred" type="submit" value="Sign In">
     
 </form>
+<p>
+    <a href="/users/auth/google">Google Sign-In/Sign-Up</a>
+</p>
+</div>
+
+
+
+

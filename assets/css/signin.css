@@ -1,0 +1,27 @@
+body{
+    background-color: #043338;
+    color: white;
+}
+#signin {
+justify-content: center;
+    border: solid 2px black;
+    margin: 10% 35% 10px 35%;
+    height: 70%;
+    width: 25%;
+    border-radius: 10px;
+    background-color:#50dfdf;
+
+
+}
+
+.signincred {
+
+    margin: 20px 0px 20px 30%;
+    /* text-align: center;
+    justify-content: center; */
+
+}
+.sign{
+    margin: 20px 0px 20px 35%;
+    
+}
